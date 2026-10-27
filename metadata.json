@@ -1,0 +1,6 @@
+{
+  "name": "AVM Production Control & Paint Matching System",
+  "description": "High-reliability, low-latency production control and computer vision paint matching platform for bus manufacturing with spectrophotometer analysis and Delta-E verification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

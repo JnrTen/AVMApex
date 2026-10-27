@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Times New Roman', Times, 'Tinos', 'Nimbus Roman No9 L', serif;
+    background-color: #f8fafc;
+    color: #0f172a;
+  }
+
+  h1, h2, h3, h4, h5, h6, button, input, select, textarea, span, p, td, th {
+    font-family: 'Times New Roman', Times, 'Tinos', 'Nimbus Roman No9 L', serif;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-feature-settings: "tnum" 1;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Stylish Non-Solid Light Mesh Background */
+.bg-stylish-light {
+  background-color: #f8fafc;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(224, 236, 255, 0.75) 0px, transparent 48%),
+    radial-gradient(at 95% 5%, rgba(254, 226, 226, 0.6) 0px, transparent 45%),
+    radial-gradient(at 50% 40%, rgba(241, 245, 249, 0.95) 0px, transparent 60%),
+    radial-gradient(at 10% 85%, rgba(238, 242, 255, 0.7) 0px, transparent 50%),
+    radial-gradient(at 90% 90%, rgba(224, 242, 254, 0.7) 0px, transparent 50%);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Subtle Geometric Architectural Grid */
+.industrial-grid-light {
+  background-image: 
+    linear-gradient(to right, rgba(148, 163, 184, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(148, 163, 184, 0.08) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* Frosted glass acrylic card effect for light theme */
+.glass-card-light {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.85);
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05), 0 2px 6px -1px rgba(15, 23, 42, 0.03);
+}
+
+/* Custom scrollbars for high-density light interface */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
